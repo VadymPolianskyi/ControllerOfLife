@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="500.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <FlowPane prefHeight="129.0" prefWidth="500.0" style="-fx-background-color: white;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="/pictures/aboutFoto.jpg" />
+                     </image>
+                     <FlowPane.margin>
+                        <Insets bottom="20.0" left="30.0" right="30.0" top="20.0" />
+                     </FlowPane.margin>
+                  </ImageView>
+                  <Label text="Controller of life" textFill="#03156e">
+                     <font>
+                        <Font name="DejaVu Sans" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </FlowPane>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The program was created to help you organize your work with computer. It was developed in Intelij IDEA 2016.2.4 development environment with using of JavaFX 2. I hope it will help with your work. Enjoy it." wrappingWidth="380.7294921875">
+               <VBox.margin>
+                  <Insets bottom="40.0" left="60.0" right="50.0" />
+               </VBox.margin>
+               <FlowPane.margin>
+                  <Insets bottom="60.0" left="50.0" right="50.0" top="40.0" />
+               </FlowPane.margin>
+            </Text>
+            <Pane prefHeight="47.0" prefWidth="500.0">
+               <children>
+                  <Label layoutX="25.0" layoutY="10.0" text="© 2016, by Vadym Polyanski" />
+               </children>
+            </Pane>
+         </children></VBox>
+   </children>
+</AnchorPane>
